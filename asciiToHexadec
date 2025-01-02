@@ -1,0 +1,7 @@
+LDA 4350       ; Load the accumulator with the value at memory address 4350H
+SUI 30         ; Subtract 30H from the accumulator (A = A - 30H)
+CPI 0A         ; Compare the accumulator with 0AH
+JC 410D        ; Jump to address 410D if A < 0AH (Carry Flag = 1)
+SUI 07         ; Subtract 07H from the accumulator (A = A - 07H)
+STA 4351       ; Store the accumulator at memory address 4351H
+HLT            ; Halt the program
