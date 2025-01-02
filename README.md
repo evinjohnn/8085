@@ -1,4 +1,3 @@
-
 # 8085 Microprocessor Lab Programs
 
 This repository contains **8085 microprocessor assembly language programs** developed as part of the **Microprocessor Lab** in the **BTech program at CUSAT**. These programs demonstrate various operations such as addition, subtraction, multiplication, division, and more using the 8085 microprocessor.
@@ -27,16 +26,16 @@ These programs were developed as part of the **Microprocessor Lab** curriculum a
 
 Here is a list of programs included in this repository:
 
-1. **Addition of Two Numbers**  
+1. **Addition of Two Numbers** (`addition.asm`)  
    - Adds two 8-bit numbers and stores the result in memory.
 
-2. **Subtraction of Two Numbers**  
+2. **Subtraction of Two Numbers** (`subtraction.asm`)  
    - Subtracts two 8-bit numbers and handles negative results using 2's complement.
 
-3. **Multiplication Using Repeated Addition**  
+3. **Multiplication Using Repeated Addition** (`multiplication.asm`)  
    - Multiplies two 8-bit numbers using repeated addition and handles carry.
 
-4. **Division Using Repeated Subtraction**  
+4. **Division Using Repeated Subtraction** (`division.asm`)  
    - Divides two 8-bit numbers using repeated subtraction and stores the quotient and remainder.
 
 5. **Conditional Jumps (JNC, JC)**  
@@ -44,6 +43,30 @@ Here is a list of programs included in this repository:
 
 6. **Memory Manipulation**  
    - Programs that load, store, and manipulate data in memory.
+
+7. **Find Prime Numbers in an Array**  
+   - Finds prime numbers in an array and stores them in another memory location.
+
+8. **ASCII to Hexadecimal Conversion** (`asciiToHexadec.asm`)  
+   - Converts ASCII values to their hexadecimal equivalents.
+
+9. **BCD to Hexadecimal Conversion** (`bcdToHex.asm`)  
+   - Converts BCD (Binary-Coded Decimal) values to hexadecimal.
+
+10. **Decimal Up Counter** (`decimalUpCounter.asm`)  
+    - Implements a decimal up counter using BCD arithmetic.
+
+11. **Hexadecimal Down Counter** (`hexDowncounter.asm`)  
+    - Implements a hexadecimal down counter.
+
+12. **Hexadecimal to ASCII Conversion** (`hexToAscii.asm`)  
+    - Converts hexadecimal values to their ASCII equivalents.
+
+13. **Hexadecimal to BCD Conversion** (`hexToBcd.asm`)  
+    - Converts hexadecimal values to BCD.
+
+14. **Sorting an Array** (`sorting.asm`)  
+    - Sorts an array of numbers in ascending or descending order.
 
 ---
 
@@ -56,4 +79,4 @@ Here is a list of programs included in this repository:
 ### Steps to Run the Programs
 1. Clone this repository:
    ```bash
-   git clone https://github.com/evinjohnn/8085.git
+   git clone https://github.com/evinjohnn/8085b.git
