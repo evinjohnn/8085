@@ -56,4 +56,4 @@ Here is a list of programs included in this repository:
 ### Steps to Run the Programs
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/8085-microprocessor-lab.git
+   git clone https://github.com/evinjohnn/8085.git
