@@ -1,4 +1,4 @@
-MVI D, FFH     ; Move FFH into register D (to act as a flag)
+MVI 0, FFH     ; Move FFH into register D (to act as a flag)
 LXI H, 4100    ; Load the HL pair with the address 4100H (start of the list)
 MOV B, M       ; Move the value at memory location (HL) to register B (number of elements)
 INX H          ; Increment HL to point to the first element in the list
